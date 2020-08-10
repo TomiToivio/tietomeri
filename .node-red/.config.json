@@ -541,6 +541,298 @@
      "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-mysql/68-mysql.js"
     }
    }
+  },
+  "node-red-contrib-mongodb3": {
+   "name": "node-red-contrib-mongodb3",
+   "version": "2.0.1",
+   "local": true,
+   "nodes": {
+    "mongodb": {
+     "name": "mongodb",
+     "types": [
+      "mongodb3",
+      "mongodb3 in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-mongodb3",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-mongodb3/mongodb/mongodb.js"
+    }
+   }
+  },
+  "node-red-contrib-mqtt-broker": {
+   "name": "node-red-contrib-mqtt-broker",
+   "version": "0.2.5",
+   "local": true,
+   "nodes": {
+    "mosca-mqtt-broker": {
+     "name": "mosca-mqtt-broker",
+     "types": [
+      "mosca in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-mqtt-broker",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-mqtt-broker/mosca.js"
+    }
+   }
+  },
+  "node-red-contrib-statistics": {
+   "name": "node-red-contrib-statistics",
+   "version": "2.2.2",
+   "local": true,
+   "nodes": {
+    "statistics": {
+     "name": "statistics",
+     "types": [
+      "statistics"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-statistics",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-statistics/statistics.js"
+    }
+   }
+  },
+  "node-red-contrib-telegrambot": {
+   "name": "node-red-contrib-telegrambot",
+   "version": "8.3.3",
+   "local": true,
+   "nodes": {
+    "telegrambot": {
+     "name": "telegrambot",
+     "types": [
+      "telegram bot",
+      "telegram receiver",
+      "telegram command",
+      "telegram event",
+      "telegram sender",
+      "telegram reply"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-telegrambot",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-telegrambot/telegrambot/99-telegrambot.js"
+    }
+   }
+  },
+  "node-red-node-watson": {
+   "name": "node-red-node-watson",
+   "version": "0.9.2",
+   "local": true,
+   "nodes": {
+    "watson-assistant-v2": {
+     "name": "watson-assistant-v2",
+     "types": [
+      "watson-assistant-v2"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/assistant/v2.js"
+    },
+    "watson-conversation-v1": {
+     "name": "watson-conversation-v1",
+     "types": [
+      "watson-conversation-v1"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/assistant/v1.js"
+    },
+    "watson-conversation-workspace-manager-v1": {
+     "name": "watson-conversation-workspace-manager-v1",
+     "types": [
+      "watson-conversation-v1-workspace-manager"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/assistant/v1-workspace-manager.js"
+    },
+    "watson-discovery-v1": {
+     "name": "watson-discovery-v1",
+     "types": [
+      "watson-discovery-v1"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/discovery/v1.js"
+    },
+    "watson-discovery-v1-document-loader": {
+     "name": "watson-discovery-v1-document-loader",
+     "types": [
+      "watson-discovery-v1-document-loader"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/discovery/v1-document-loader.js"
+    },
+    "watson-discovery-v1-query-builder": {
+     "name": "watson-discovery-v1-query-builder",
+     "types": [
+      "watson-discovery-v1-query-builder"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/discovery/v1-query-builder.js"
+    },
+    "watson-doc-translator-v3": {
+     "name": "watson-doc-translator-v3",
+     "types": [
+      "watson-doc-translator"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/language_translator/v3-doc.js"
+    },
+    "watson-language-translator-identify-v3": {
+     "name": "watson-language-translator-identify-v3",
+     "types": [
+      "watson-language-translator-identify"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/language_translator_identify/v3.js"
+    },
+    "watson-language-translator-util-v3": {
+     "name": "watson-language-translator-util-v3",
+     "types": [
+      "watson-translator-util"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/language_translator_util/v3.js"
+    },
+    "watson-language-translator-v3": {
+     "name": "watson-language-translator-v3",
+     "types": [
+      "watson-translator"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/language_translator/v3.js"
+    },
+    "watson-natural-language-classifier-v1": {
+     "name": "watson-natural-language-classifier-v1",
+     "types": [
+      "watson-natural-language-classifier"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/natural_language_classifier/v1.js"
+    },
+    "watson-natural-language-understanding-model-manager-v1": {
+     "name": "watson-natural-language-understanding-model-manager-v1",
+     "types": [
+      "natural-language-understanding-model-manager-v1"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/natural_language_understanding/v1-model-manager.js"
+    },
+    "watson-natural-language-understanding-v1": {
+     "name": "watson-natural-language-understanding-v1",
+     "types": [
+      "natural-language-understanding"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/natural_language_understanding/v1.js"
+    },
+    "watson-personality-insights-v3": {
+     "name": "watson-personality-insights-v3",
+     "types": [
+      "watson-personality-insights-v3"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/personality_insights/v3.js"
+    },
+    "watson-speech-to-text-corpus-builder-v1": {
+     "name": "watson-speech-to-text-corpus-builder-v1",
+     "types": [
+      "watson-speech-to-text-v1-query-builder"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/speech_to_text/v1-corpus-builder.js"
+    },
+    "watson-speech-to-text-v1": {
+     "name": "watson-speech-to-text-v1",
+     "types": [
+      "watson-speech-to-text"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/speech_to_text/v1.js"
+    },
+    "watson-text-to-speech-corpus-builder-v1": {
+     "name": "watson-text-to-speech-corpus-builder-v1",
+     "types": [
+      "watson-text-to-speech-v1-query-builder"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/text_to_speech/v1-corpus-builder.js"
+    },
+    "watson-text-to-speech-v1": {
+     "name": "watson-text-to-speech-v1",
+     "types": [
+      "watson-text-to-speech"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/text_to_speech/v1.js"
+    },
+    "watson-tone-analyzer-v3": {
+     "name": "watson-tone-analyzer-v3",
+     "types": [
+      "watson-tone-analyzer-v3"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/tone_analyzer/v3.js"
+    },
+    "watson-visual-recognition-collection-utils-v4": {
+     "name": "watson-visual-recognition-collection-utils-v4",
+     "types": [
+      "visual-recognition-util-v4"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/visual_recognition/v4-collection-utils.js"
+    },
+    "watson-visual-recognition-v3": {
+     "name": "watson-visual-recognition-v3",
+     "types": [
+      "visual-recognition-v3",
+      "visual-recognition-util-v3"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-watson",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-watson/services/visual_recognition/v3.js"
+    }
+   }
   }
  },
  "users": {
