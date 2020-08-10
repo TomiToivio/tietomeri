@@ -392,6 +392,155 @@
      "file": "/usr/local/lib/node_modules/node-red/node_modules/node-red-node-tail/28-tail.js"
     }
    }
+  },
+  "node-red-contrib-graphs": {
+   "name": "node-red-contrib-graphs",
+   "version": "0.3.5",
+   "local": true,
+   "nodes": {
+    "datasource": {
+     "name": "datasource",
+     "types": [
+      "iot-datasource"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-graphs",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-graphs/datasource.js"
+    }
+   }
+  },
+  "node-red-contrib-iota": {
+   "name": "node-red-contrib-iota",
+   "version": "1.0.0",
+   "local": true,
+   "nodes": {
+    "MAM fetch": {
+     "name": "MAM fetch",
+     "types": [
+      "MAM fetch"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-iota",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-iota/nodes/mam/fetch_mam.js"
+    },
+    "MAM publish": {
+     "name": "MAM publish",
+     "types": [
+      "MAM publish"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-iota",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-iota/nodes/mam/publish_mam.js"
+    }
+   }
+  },
+  "node-red-contrib-redis": {
+   "name": "node-red-contrib-redis",
+   "version": "1.3.5",
+   "local": true,
+   "nodes": {
+    "redis": {
+     "name": "redis",
+     "types": [
+      "redis-config",
+      "redis-in",
+      "redis-out",
+      "redis-command",
+      "redis-lua-script",
+      "redis-instance"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-redis",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-redis/redis.js"
+    }
+   }
+  },
+  "node-red-contrib-watson-machine-learning": {
+   "name": "node-red-contrib-watson-machine-learning",
+   "version": "0.1.1",
+   "local": true,
+   "nodes": {
+    "wml": {
+     "name": "wml",
+     "types": [
+      "wml"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-watson-machine-learning",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-watson-machine-learning/nodes/v1.js"
+    },
+    "wml-config": {
+     "name": "wml-config",
+     "types": [
+      "wml-config"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-watson-machine-learning",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-contrib-watson-machine-learning/nodes/v1-config.js"
+    }
+   }
+  },
+  "node-red-node-arduino": {
+   "name": "node-red-node-arduino",
+   "version": "0.3.1",
+   "local": true,
+   "nodes": {
+    "arduino": {
+     "name": "arduino",
+     "types": [
+      "arduino in",
+      "arduino out",
+      "arduino-board"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-arduino",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-arduino/35-arduino.js"
+    }
+   }
+  },
+  "node-red-node-mongodb": {
+   "name": "node-red-node-mongodb",
+   "version": "0.0.14",
+   "local": true,
+   "nodes": {
+    "mongo": {
+     "name": "mongo",
+     "types": [
+      "mongodb",
+      "mongodb out",
+      "mongodb in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-mongodb",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-mongodb/66-mongodb.js"
+    }
+   }
+  },
+  "node-red-node-mysql": {
+   "name": "node-red-node-mysql",
+   "version": "0.1.1",
+   "local": true,
+   "nodes": {
+    "mysql": {
+     "name": "mysql",
+     "types": [
+      "MySQLdatabase",
+      "mysql"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-node-mysql",
+     "file": "/home/tomi/GitHub/Ukuli-Tietomeri-Node-Red/.node-red/node_modules/node-red-node-mysql/68-mysql.js"
+    }
+   }
   }
  },
  "users": {

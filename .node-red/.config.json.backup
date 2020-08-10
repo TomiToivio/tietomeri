@@ -419,6 +419,7 @@
    "Ukuli_Tietomeri_Node_Red_Project": {
     "credentialSecret": "tietomeri1974snowden"
    }
-  }
+  },
+  "activeProject": "Ukuli_Tietomeri_Node_Red_Project"
  }
 }
