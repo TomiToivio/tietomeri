@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Just trying to remember how this worked.",
   "nodes": {
-	"fart": "fart.js",
+	"fart": "fart.js"
 	},
   "keywords": [
     "fart"
